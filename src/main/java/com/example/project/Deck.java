@@ -40,7 +40,7 @@ public class Deck {
     }
 
     public Card drawCard() {
-        // Remove and return the top card from the deck, or return null if the deck is empty
+        // Removes and returns the top card from the deck, or its going to return null if the deck is empty
         if (isEmpty()) {
             return null;
         } else {
@@ -49,7 +49,7 @@ public class Deck {
     }
 
     public boolean isEmpty() {
-        // Check if the deck is empty and  if it is it returns that it ios empty 
+        // Checks if the deck is empty and  if it is it returns that it is empty 
         return cards.isEmpty();
     }
 }

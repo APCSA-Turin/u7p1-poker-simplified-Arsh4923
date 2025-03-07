@@ -106,7 +106,6 @@ public class Player {
         ArrayList<Integer> values = new ArrayList<>();
         for (int i = 0; i < allCards.size(); i++) {
             int value = Utility.getRankValue(allCards.get(i).getRank());
-            // Add unique values to the list manually
             boolean found = false;
             for (int j = 0; j < values.size(); j++) {
                 if (values.get(j) == value) {
